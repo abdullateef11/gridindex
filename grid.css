@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(36, 33, 33);
+}
+.container{
+    display: grid;
+    height: 90vh;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(6,60px);
+    grid-template-rows:100px 50px 70px ;
+    grid-template-areas: "red yellow"
+                          "green blue" 
+                          "blue blue" ;
+    row-gap: 7px ; 
+    column-gap:5px ;     
+    font-family: (https://fonts.google.com/specimen/Big+Shoulders+Display);
+                    
+}
+.grid1{
+    background-color: rgb(151, 58, 3);
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+
+}
+.grid2{
+    background-color: rgb(255, 187, 0);
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+.grid3{
+    background-color: rgb(20, 83, 36);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.grid4{
+    background-color: rgb(47, 74, 150);
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.grid5{
+    background-color: rgb(47, 74, 150);
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+nav a{
+    width: 20%;
+    color: white;
+    border-radius:25px;
+    padding: 10px;
+    margin-top:62px;
+    margin-left: 21px;
+    background-color: rgb(63, 16, 59);
+}
